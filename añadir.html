@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Añadir Usuario</title>
+        <link rel="stylesheet" href="estilo.css"> 
+    </head>
+    <body>
+        <header>
+            <h2>Añadir Nuevo Usuario</h2>
+        </header>
+        <div id="contenedor">
+            
+            <form action="Nuevo.php" method="post">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                <input type="text" name="descripcion" id="descripcion" placeholder="descripcion" required>
+                <input type="text" name="foto" id="foto" placeholder="foto" required>
+                <button type="submit">Añadir Usuario</button>
+            </form>
+            <a href="inicio.html"><button type="button">Volver al menu</button></a>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+    </html>
